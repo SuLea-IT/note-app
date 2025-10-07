@@ -1,4 +1,0 @@
-﻿from pathlib import Path
-text = Path('frontend/lib/features/profile/presentation/profile_screen.dart').read_text(encoding='utf-8')
-for line in text.splitlines()[366:376]:
-    print(repr(line))

@@ -1,0 +1,43 @@
+# Flutter / Dart builds
+**/build/
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Flutter generated sources
+**/GeneratedPluginRegistrant.*
+
+# Platform-specific build artifacts
+**/android/.gradle/
+**/android/local.properties
+**/android/app/build/
+**/ios/Pods/
+**/ios/build/
+**/macos/Pods/
+**/macos/build/
+**/linux/flutter/ephemeral/
+**/windows/flutter/ephemeral/
+
+# Node
+node_modules/
+
+# Python
+**/__pycache__/
+*.pyc
+*.pyo
+backend/.venv/
+
+# Environment & secrets
+.env
+.env.*
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs & coverage
+*.log
+coverage/
